@@ -1,0 +1,72 @@
+
+body, html{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.wrap{
+  max-width: 1220px;
+  margin: auto;
+      
+}
+
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+      
+}
+
+.wrap img{
+  margin: 30px;
+  
+}
+
+input[type="text"]{
+  display: block;
+  margin: 30px auto 0 auto;
+  font-size: 16pt;
+  width: 65%;
+  
+}
+
+
+
+/*******************************
+Media Query
+******************************/
+
+  
+@media (min-width: 537px){
+  input[type="text"]{
+  width: 60%;
+  max-width: 460px;
+    
+}
+}
+  
+  
+/************************************
+JS add on style
+************************************/
+
+
+@media (min-width: 1058px){
+  
+input[type="text"]{
+  max-width: 460px;
+  
+}
+  }
+  
+
+
+
+
+
+
+
